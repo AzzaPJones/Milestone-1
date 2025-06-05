@@ -37,6 +37,15 @@ p {
 
 }
 
+/*Navbar*/
+#navbar {
+    background-color: var(--highlight-color-light);
+}
+
+#navbar .logo {
+    width: 40px;
+}
+
 #hero-home {
     background-image: url(../images/homepage-hero.png.png);
     background-size: cover;
