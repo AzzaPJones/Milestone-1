@@ -1,11 +1,42 @@
 /*Google font styles link*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap');
 
+/*CSS Varibles*/
+:root {
+    --primary-font: 'WDXL Lubrifont TC', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --primary-color: #94c079;
+    /*olive green*/
+    --secondary-color: #348230;
+    /*dark olive green*/
+    --highlight-color: #bcb4ac;
+    /*light grey*/
+    --highlight-color-light: #fbf4dc;
+    /*light tan*/
+}
+
 body {
-    background-color: blue;
+    background-color: var(--secondary-color);
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     font-family: 'WDXL Lubrifont TC', sans-serif;
+    color: var(--highlight-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--highlight-color-light);
+
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
