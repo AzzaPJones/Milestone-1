@@ -22,14 +22,14 @@ body {
 
 h1 {
     font-family: 'WDXL Lubrifont TC', sans-serif;
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
 }
 
 h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--highlight-color-light);
 }
 
 p {
@@ -37,6 +37,12 @@ p {
 
 }
 
-.sub-heading-color {
-    color: var(--highlight-color);
+#hero-home {
+    background-image: url(../images/homepage-hero.png.png);
+    background-size: cover;
+    background-position: 50% 40%;
+    min-height: 500px;
+    padding: 5% 4%;
+    background-color: #dbdcde;
+    /*light grey*/
 }
