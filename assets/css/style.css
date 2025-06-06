@@ -1,6 +1,8 @@
 /*Google font styles link*/
+/*credit: google fonts sourced from https://fonts.google.com*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap');
 
+/*Credit: CSS varibles template from bootstrap https://getbootstrap.com/docs/5.3/customize/css-variables/*/
 /*CSS Varibles*/
 :root {
     --primary-font: 'WDXL Lubrifont TC', sans-serif;
@@ -32,6 +34,10 @@ h2,
 h3 {
     font-family: var(--primary-font);
     color: var(--highlight-color-light);
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 p {
@@ -152,6 +158,7 @@ p {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    /* credit: autoprefixer css from https://autoprefixer.github.io*/
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
@@ -164,6 +171,7 @@ p {
 #contact .table-dark * {
     background-color: transparent;
 }
+
 
 /*Medium screen sizes (tablets, 768px and up)*/
 @media screen and (min-width:768px) {
