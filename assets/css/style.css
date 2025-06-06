@@ -18,6 +18,8 @@
 body {
     background-color: var(--secondary-color);
     font-family: 'Roboto', sans-serif;
+    padding-top: 57px;
+    /*pushes the top of the header down under fixed navbar */
 }
 
 h1 {
@@ -37,6 +39,11 @@ p {
 
 }
 
+.section {
+    padding-top: 4rem;
+    /*prevents navbar overlap*/
+}
+
 /*Navbar*/
 #navbar {
     background-color: var(--highlight-color-light);
@@ -48,6 +55,26 @@ p {
 
 #hero-home {
     background-image: url(../images/homepage-hero.png.png);
+    background-size: cover;
+    background-position: 50% 40%;
+    min-height: 500px;
+    padding: 5% 4%;
+    background-color: #dbdcde;
+    /*light grey*/
+}
+
+#hero-coffee {
+    background-image: url(../images/homepage-hero.png.png);
+    background-size: cover;
+    background-position: 50% 40%;
+    min-height: 500px;
+    padding: 5% 4%;
+    background-color: #dbdcde;
+    /*light grey*/
+}
+
+#hero-game {
+    background-image: url(../images/game-room-hero.png.png);
     background-size: cover;
     background-position: 50% 40%;
     min-height: 500px;
