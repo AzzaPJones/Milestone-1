@@ -39,6 +39,10 @@ p {
 
 }
 
+.sub-heading-color {
+    color: var(--secondary-color);
+}
+
 .section {
     padding-top: 4rem;
     /*prevents navbar overlap*/
@@ -53,6 +57,12 @@ p {
     width: 70px;
 }
 
+/*links section*/
+
+#links .card {
+    margin-bottom: 1.5rem;
+}
+
 #hero-home {
     background-image: url(../images/homepage-hero.png.png);
     background-size: cover;
@@ -64,7 +74,7 @@ p {
 }
 
 #hero-coffee {
-    background-image: url(../images/homepage-hero.png.png);
+    background-image: url(../images/coffeehouse-hero.png.png);
     background-size: cover;
     background-position: 50% 40%;
     min-height: 500px;
@@ -118,4 +128,40 @@ p {
 
 #contact .table-dark * {
     background-color: transparent;
+}
+
+/*Medium screen sizes (tablets, 768px and up)*/
+@media screen and (min-width:768px) {
+
+    /*Make all cards the same height for consistency*/
+    #links .card-body {
+        min-height: 191px;
+    }
+}
+
+/*Large screen sizes ( small laptops, 992px and up)*/
+@media screen and (min-width:992px) {
+
+    /*Make all cards the same height for consistency*/
+    #links .card-body {
+        min-height: auto;
+    }
+}
+
+/*Large screen sizes (XL desktops, 1200px and up)*/
+@media screen and (min-width:1200px) {
+
+    /*Make all cards the same height for consistency*/
+    #links .card-body {
+        min-height: 220px;
+    }
+}
+
+/*large screen sizes (XXL desktops, 1400px and up)*/
+@media screen and (min-width:1400px) {
+
+    /*Make all cards the same height for consistency*/
+    #links .card-body {
+        min-height: 195px;
+    }
 }
