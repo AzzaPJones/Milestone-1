@@ -111,6 +111,10 @@ p {
     color: var(--highlight-color);
 }
 
+#booking-form {
+    background-color: var(--highlight-color);
+}
+
 /*Footer /Contact section */
 #contact {
     background-color: var(--primary-color);

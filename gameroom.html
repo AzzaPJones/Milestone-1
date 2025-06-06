@@ -103,8 +103,40 @@
                     </p>
                 </div>
             </div>
+        </section>
+        <section id="booking-form" class="container-fluid">
+            <form action="Success.html" post="GET">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mb-2">
+                        <label for="full name" class="form-label">Full Name</label>
+                        <input class="form-control" id="fullname" name="fullname" type="text" required>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input class="form-control" id="email" name="email" type="email" required>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <label for="phone" class="form-label">Phone number</label>
+                        <input class="form-control" id="phone" name="phone" type="number" required>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <label for="event-type" class="form-label">Event type</label>
+                        <select id="event-type" class="form-select" name="event-type" required>
+                            <option value="" selected>Select</option>
+                            <option value="private">Private Event</option>
+                            <option value="retro-night">Retro Game Night</option>
+                            <option value="lan">LAN Tournament</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                    </div>
+                </div>
 
-
+                <button type="submit" class="btn btn-success mb-4">Submit</button>
+            </form>
         </section>
     </main>
     <!-- Footer / contact section -->
