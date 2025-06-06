@@ -30,7 +30,7 @@ h1 {
 h1,
 h2,
 h3 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: var(--highlight-color-light);
 }
 
@@ -39,9 +39,7 @@ p {
 
 }
 
-.sub-heading-color {
-    color: var(--secondary-color);
-}
+
 
 .section {
     padding-top: 4rem;
@@ -63,9 +61,12 @@ p {
     margin-bottom: 1.5rem;
 }
 
+#links .sub-heading-color {
+    color: var(--secondary-color);
+}
+
 #hero-home {
     background-image: url(../images/homepage-hero.png.png);
-    background-size: cover;
     background-position: 50% 40%;
     min-height: 500px;
     padding: 5% 4%;
@@ -81,6 +82,21 @@ p {
     padding: 5% 4%;
     background-color: #dbdcde;
     /*light grey*/
+}
+
+/*drinks menu section*/
+
+#coffee {
+    background-color: var(--highlight-color);
+
+}
+
+#food {
+    background-color: var(--primary-color);
+}
+
+.list {
+    list-style-type: none;
 }
 
 #hero-game {
