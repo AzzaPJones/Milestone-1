@@ -115,6 +115,18 @@ p {
     background-color: var(--highlight-color);
 }
 
+.custom-btn {
+    background-color: var(--highlight-color);
+}
+
+#success .btn:hover {
+    background-color: var(--highlight-color-light);
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+
 /*Footer /Contact section */
 #contact {
     background-color: var(--primary-color);
