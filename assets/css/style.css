@@ -95,6 +95,7 @@ p {
 
 .list {
     list-style-type: none;
+    padding-left: 2px;
 }
 
 #hero-game {
@@ -171,6 +172,16 @@ p {
     #links .card-body {
         min-height: 191px;
     }
+
+    #food {
+        max-width: 45%;
+        padding-left: 2px;
+    }
+
+    #coffee {
+        max-width: 45%;
+        padding-left: 2px;
+    }
 }
 
 /*Large screen sizes ( small laptops, 992px and up)*/
@@ -178,7 +189,17 @@ p {
 
     /*Make all cards the same height for consistency*/
     #links .card-body {
-        min-height: auto;
+        min-height: 176.96px;
+    }
+
+    #food {
+        max-width: 45%;
+        padding-left: 2px;
+    }
+
+    #coffee {
+        max-width: 45%;
+        padding-left: 2px;
     }
 }
 
@@ -189,6 +210,16 @@ p {
     #links .card-body {
         min-height: 220px;
     }
+
+    #food {
+        max-width: 45%;
+        padding-left: 2px;
+    }
+
+    #coffee {
+        max-width: 45%;
+        padding-left: 2px;
+    }
 }
 
 /*large screen sizes (XXL desktops, 1400px and up)*/
@@ -197,5 +228,15 @@ p {
     /*Make all cards the same height for consistency*/
     #links .card-body {
         min-height: 195px;
+    }
+
+    #food {
+        max-width: 45%;
+        padding-left: 2px;
+    }
+
+    #coffee {
+        max-width: 45%;
+        padding-left: 2px;
     }
 }
