@@ -39,8 +39,6 @@ p {
 
 }
 
-
-
 .section {
     padding-top: 4rem;
     /*prevents navbar overlap*/
@@ -107,6 +105,10 @@ p {
     padding: 5% 4%;
     background-color: #dbdcde;
     /*light grey*/
+}
+
+#games-room .list {
+    color: var(--highlight-color);
 }
 
 /*Footer /Contact section */
